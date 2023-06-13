@@ -10,6 +10,6 @@ class Comment < ApplicationRecord
   end
 
   def public_count
-    where(status: 'public').count
+    where( status: 'public' ).count
   end
 end
